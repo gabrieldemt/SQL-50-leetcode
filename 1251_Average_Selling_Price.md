@@ -8,6 +8,8 @@ AND u.purchase_date BETWEEN p.start_date AND p.end_date
 GROUP BY p.product_id
 ```
 ## NOTAS
-Coalesce para checar se o valor é nulo e trocar por 0.
-NUMERIC para informar que é decimal
+Coalesce para checar se o valor é nulo e trocar por 0.  
+
+NUMERIC para informar que é decimal  
+
 AND no JOIN para filtrar as datas corretamente (antes eu estava fazendo com where, acontecia depois do join e isso ocasionava em erro)
