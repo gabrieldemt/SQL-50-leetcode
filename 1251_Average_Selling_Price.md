@@ -13,3 +13,6 @@ Coalesce para checar se o valor é nulo e trocar por 0.
 NUMERIC para informar que é decimal  
 
 AND no JOIN para filtrar as datas corretamente (antes eu estava fazendo com where, acontecia depois do join e isso ocasionava em erro)
+
+
+**26-08-25**

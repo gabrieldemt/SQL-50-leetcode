@@ -6,5 +6,6 @@ FROM Teacher
 GROUP BY 1
 ```
 ## NOTAS
-Codigo muito simples, mas sem a pratica recente de sql, na primeira tentativa coloquei COUNT DISTINCT(subject_id), erro bobo se sintaxe.
+Codigo muito simples, mas sem a pratica recente de sql, na primeira tentativa coloquei COUNT DISTINCT(subject_id), erro bobo de sintaxe.
 
+**26-08-25**
